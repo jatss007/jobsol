@@ -2,7 +2,7 @@
 <?php include "includes/header.php"; ?>
 <?php include "includes/function.php";?>
 
-<?php 
+<?php
 if(isset($_SESSION['role']))
 {$role=$_SESSION['role'];
     if($role=='student')
@@ -18,16 +18,16 @@ if(isset($_SESSION['role']))
         <?php
     }
     else{
-        
+
             ?>
         <?php include "includes/sidebar.php";?>
         <?php
-    
-        
+
+
     }
 }
 ?>
-<?php 
+<?php
 
 
 
@@ -47,18 +47,18 @@ if(isset($_SESSION['role']))
                     $image=$row['user_image'];
 
 
-?>	  
+?>
 
-        
-        
 
-   
+
+
+
         <div id="page-wrapper" class="gray-bg dashbard-1">
        <div class="content-main">
- 
-  		<!--banner-->	
+
+  		<!--banner-->
 		    <div class="banner">
-		   
+
 				<h2>
 				<a href="user.php">Home</a>
 				<i class="fa fa-angle-right"></i>
@@ -66,7 +66,7 @@ if(isset($_SESSION['role']))
 				</h2>
 		    </div>
 		<!--//banner-->
-		
+
 		<div class=" profile">
 
 		<div class="profile-bottom">
@@ -79,7 +79,7 @@ if(isset($_SESSION['role']))
 				<h6><?php echo strtoupper($firstname)." ".strtoupper($lastname) ;?>
                     </h6>
 				<table>
-				
+
 				<tr>
 				<td>Email</td>
 				<td> :</td>
@@ -97,7 +97,7 @@ if(isset($_SESSION['role']))
                     </tr><tr>
                     <td>Contest Solved</td>
                     <td>:</td>
-                    
+
                     <td>
                 <?php
                 $query="Select * from contest_solved WHERE user_id={$id}";
@@ -108,26 +108,24 @@ if(isset($_SESSION['role']))
                     $Category=$row['category'];
                     $contest_id=$row['id'];
                     $cid=$row['chg_id'];
-                    echo "$Category &nbsp;";
-                    
-                    
+                    echo "$Category &nbsp;"; 
                 }
-                
+
                 ?></td>
 				    </tr>
                 </table>
-				
+
 			</div>
 			<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
 		<!--content-->
-	
-  
 
 
-	 
+
+
+
 		<!---->
 <div class="copy">
             <p> &copy; 2016 Minimal. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
@@ -141,8 +139,3 @@ if(isset($_SESSION['role']))
 <!---->
 <!--scrolling js-->
 <?php include "includes/footer.php"; ?>
-
-
-
-
-

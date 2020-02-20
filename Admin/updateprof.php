@@ -94,7 +94,6 @@ if(isset($_SESSION['id']))
     else
     {
         header("Location: updateprof.php");
-
     }
 
 

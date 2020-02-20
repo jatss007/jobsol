@@ -19,7 +19,7 @@
 <div class="signupform">
 <h1>Quick Register Form</h1>
 	<div class="container">
-		
+
 		<div class="agile_info">
 			<div class="w3_info">
 				<h2>Register Here</h2>
@@ -28,21 +28,21 @@
 							<label>First Name</label>
 							<div class="input-group">
 								<span><i class="fa fa-user" aria-hidden="true"></i></span>
-								<input type="text" name="firstname" placeholder="First Name" required=""> 
+								<input type="text" name="firstname" placeholder="First Name" required="">
 							</div>
 						</div>
 						<div class="left">
 							<label>Last Name</label>
 							<div class="input-group">
 								<span><i class="fa fa-user" aria-hidden="true"></i></span>
-								<input type="text" name="lastname" placeholder="Last Name" required=""> 
+								<input type="text" name="lastname" placeholder="Last Name" required="">
 							</div>
 						</div>
 						<div class="left margin">
 							<label>Email Address</label>
 							<div class="input-group">
 								<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-								<input type="email" name="email" placeholder="Email" required=""> 
+								<input type="email" name="email" placeholder="Email" required="">
 							</div>
 						</div>
 						<div class="left">
@@ -66,33 +66,33 @@
 								<input type="Password" id="confirm_password" name="cnpassword" placeholder="Confirm Password" required="">
 							</div>
 						</div>
-						
+
 						<span id='message'></span>
-						
+
                      <script type="text/javascript">
 
                       $('#password, #confirm_password').on('keyup', function () {
                       if ($('#password').val() == $('#confirm_password').val()) {
                         $('#message').html('Password Matching').css('color', 'green');
-                      } else 
+                      } else
                         $('#message').html('Password Not Matching').css('color', 'red');
                     });
-                         
+
                     </script>
-                     
-                                          
+
+
                       <div class="custom-control custom-radio">
-                      
-                      <input type="radio" class="custom-control-input" value="student" id="defaultChecked2" name="role" checked>  
+
+                      <input type="radio" class="custom-control-input" value="student" id="defaultChecked2" name="role" checked>
                       <label class="custom-control-label" for="defaultChecked2">Student</label>
-                
-                       
-                      <input type="radio" class="custom-control-input" value="company" id="defaultChecked2" name="role" checked>  
+
+
+                      <input type="radio" class="custom-control-input" value="company" id="defaultChecked2" name="role" checked>
                       <label class="custom-control-label" for="defaultChecked2">Company</label>
                         </div>
 
 						<div class="clear"></div>
-							<button class="btn btn-danger btn-block" name ="submit" type="submit">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button >                
+							<button class="btn btn-danger btn-block" name ="submit" type="submit">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button >
 					</form>
 			</div>
 			<div class="w3l_form">
@@ -104,10 +104,10 @@
 			</div>
 			<div class="clear"></div>
 			</div>
-			
+
 		</div>
-		
-	
+
+
 <div class="footer">
 
 

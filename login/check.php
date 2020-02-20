@@ -37,9 +37,7 @@
         $db_userlastname=$row['user_lastname'];
         $db_userrole=$row['user_role'];
         $db_userimage=$row['user_image'];
-
     }
-
 if($username === $db_username && $password===$db_userpass)
 {
     $name= "Hiring";
